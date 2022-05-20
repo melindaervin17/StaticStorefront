@@ -1,0 +1,252 @@
+body {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background: #34d2eb url(./assets/icingbg.jpg) fixed no-repeat top;
+	padding: 0;
+	margin: 0;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+}
+
+header {
+	background-color: #34d2eb;
+	border-bottom: #022e35 solid 10px;
+	padding: 0.5em 0 0.5em;
+	margin: 0 0 2em;
+}
+
+.contentWrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 3.0em;
+	text-align: center;
+}
+
+h1 {
+	text-align: left;
+	font-size: 3em;
+	font-style: italic;
+	margin: 0.5em 0 0.5em 0; 
+	color: white;
+}
+
+#main h1 {
+	text-align: center;
+	font-size: 2em;
+	color: #022e35;
+	margin: 0.5em;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #022e35;
+	margin: 0.3em 0 0.3em 0;
+	padding: 0px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1em;
+	color: #022e35;
+	margin: 0.2em;
+	padding: 0px;
+	text-align: center;
+}
+
+p {
+	font-size: 1em;
+	color: darkslategray;
+	margin: 0.3em 0 0.3em 0;
+	padding: 0px;
+	text-align: left;
+}
+
+#navBarOne .acctNav {
+	float: right;
+	list-style-type: none;
+	display: inline;
+	margin: 0.5em;
+	padding: 0.5em;
+	background-color: #022e35;
+	text-decoration: none;
+}
+
+.acctNav {
+	list-style: none;
+	text-decoration: none;
+}
+
+.acctNav a:link {
+	position: relative;
+	text-decoration: none;
+}
+
+.acctNav a:visited {
+	color: white;
+}
+
+#navBarOne .acctNav a:hover {
+	color: #34d2eb;
+}
+
+#navBarTwo .navMenu {
+	font-size: 1.2em;
+	position: relative;
+	color: #022e35;
+	align-items: center;
+	list-style-type: none;
+	display: inline;
+	padding: 1em;
+	text-decoration: none;
+}
+
+.navMenu {
+	list-style: none;
+	text-decoration: none;
+}
+
+.navMenu a:link {
+	position: relative;
+	text-decoration: none;
+}
+
+.navMenu a:visited {
+	position: relative;
+	text-decoration: none;
+	color: #022e35;
+}
+
+.navMenu a:hover {
+	position: relative;
+	background-color: azure;
+	padding: 0.5em;
+	margin: -0.5em;
+}
+
+#sideBar {
+	float: left;
+	position: relative;
+	display: block;
+	width: 225px;
+	background-color: white;
+	margin: 0 1em 0 1.5em;
+	padding: 0.5em 0 0.5em 0;
+	border-left: #022e35 solid 8px;
+}
+
+#sideBar ul {
+	font-size: 1.2em;
+	margin: 0 1em 0 1em;
+	padding: 0 0 0 1.0em;
+	list-style-type: circle;
+}
+#sideBar ul li {
+	margin: 0;
+	padding: 1em 0.5em 1em 0.5em;
+}
+
+#sideBar a:link {
+	color: #022e35;
+	text-decoration: none;
+	text-align: left;
+}
+
+#sideBar a:visited {
+	color: #022e35;
+}
+
+#sideBar a:hover {
+	color: #34d2eb;
+}
+
+#youAreHere {
+	list-style-type: disc;
+}
+
+#youAreHere a:hover {
+	color: #022e35;
+	cursor: default;
+}
+
+.items {
+		float: right;
+		position: relative;
+		width: 250px;
+		margin: 0 0.5em 1.0em 0.5em;
+		padding: 1.0em;
+		background-color: #fff;
+		border: lightgrey solid 2px;
+		border-radius: 0.2em;
+}
+
+.items img {
+	width: 100%;
+	height: 250px;
+}
+
+button {
+	color: white;
+	background-color: #022e35;
+	padding: 1em;
+}
+
+button:hover {
+	background-color: #34d2eb;
+	border: 2px solid #022e35;
+	cursor: pointer;
+}
+
+div.clear {
+	clear: both;
+	font-size: 1%;
+}
+
+footer {
+	background-color: #34d2eb;
+	height: 25px;
+	font-size: 1.05em;
+	color: white;
+	text-align: left;
+	padding: 1.5em 2.0em;
+}
+
+#menuFooter {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0 0 0.5em;
+	padding: 0;
+}
+#menuFooter li {
+	display: inline-block;
+	padding: 0 0.7em 0 0;
+	margin: 0;
+}
+#menuFooter li::before {
+	content: "| ";
+	padding-right: 0.5em;
+}
+footer a, footer a:visited {
+	color: white;
+	text-decoration: none;
+}
+footer a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+#socialMedia {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+#socialMedia img {
+	width: 35px;
+	height: 35px;
+	padding: 0.2rem;
+}
+
+#socialMedia img:hover {
+	cursor: pointer;
+}
