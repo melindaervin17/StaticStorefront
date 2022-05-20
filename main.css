@@ -80,6 +80,7 @@ p {
 .acctNav a:link {
 	position: relative;
 	text-decoration: none;
+	color: white;
 }
 
 .acctNav a:visited {
@@ -109,6 +110,7 @@ p {
 .navMenu a:link {
 	position: relative;
 	text-decoration: none;
+	color: #022e35;
 }
 
 .navMenu a:visited {
