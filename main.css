@@ -75,16 +75,20 @@ p {
 .acctNav {
 	list-style: none;
 	text-decoration: none;
+	list-style: none;
 }
 
 .acctNav a:link {
 	position: relative;
 	text-decoration: none;
+	list-style: none;
 	color: white;
 }
 
 .acctNav a:visited {
 	color: white;
+	text-decoration: none;
+	list-style: none;
 }
 
 #navBarOne .acctNav a:hover {
@@ -105,17 +109,20 @@ p {
 .navMenu {
 	list-style: none;
 	text-decoration: none;
+	list-style: none;
 }
 
 .navMenu a:link {
 	position: relative;
 	text-decoration: none;
+	list-style: none;
 	color: #022e35;
 }
 
 .navMenu a:visited {
 	position: relative;
 	text-decoration: none;
+	list-style: none;
 	color: #022e35;
 }
 
